@@ -16,7 +16,7 @@ count = 4
 ami = "ami-0360c520857e3138f"
 instance_type = "t3.micro"
 key_name = "siddu"
-vpc_security_group_ids = ["sg-0da91ed9997d755fc"]
+vpc_security_group_ids = ["sg-01c91cd3a6719927b"]
 tags = {
 Name = var.instance_names[count.index]
 }
